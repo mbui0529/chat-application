@@ -1,0 +1,34 @@
++ Start server. (P)
+    -> output from server console
++ Connect many user to server. (P)
+    -> output from server console
++ create a new user. (P)
+    -> DO NEXT:Add more rules to check invalid name
++ list rooms when it is empty. (P)
+    -> no room showed
++ join invalid rooms. (P)
+    -> error msg
++ create a new room. (P)
+    -> welcome msg from room
++ list rooms when it is not empty. (P)
+    -> room showed
++ create an existing room. (P)
+    -> error message
++ create a room while being in a room (P)
+    -> must leave the room and enter the new one.
++ join a same room. (P)
+    -> expect error message
++ switch to an invalid room. (P)
+    -> expect error message
++ switch to a valid room. (P)
+    -> join the new room
++ send message while being a room.
+    -> message is exchanged.
++ clients exits.(P)
+    -> bye msg from client console
+    -> bye msg from server console.
++ list user (P)
+    -> print out the message.
++ server exits. (P)
+    -> bye msg in server
+    -> server crash message in clients
